@@ -15,7 +15,6 @@ body {
     background: url('../imagens/fundo.png') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
-    scroll-behavior: auto;
 }
 
 main {
@@ -38,6 +37,26 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 270px;
-    height: 470px;
+    width: 268px;
+    height: 471px;
+}
+
+section#redes-sociais {
+    text-align: right;
+    position: relative;
+    top: 81px;
+    left: 20px;
+}
+
+section#redes-sociais img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+section#redes-sociais img:hover {
+    border: 3px dotted rgb(218, 156, 243);
+    transition: border .5s;
 }
